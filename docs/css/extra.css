@@ -2,6 +2,10 @@ h1 {
     margin-bottom: 0px;
 }
 
+.md-typeset h1 {
+    margin-bottom: 0px;
+}
+
 hr {
     margin-top: 2px;
     margin-bottom: 2px;
