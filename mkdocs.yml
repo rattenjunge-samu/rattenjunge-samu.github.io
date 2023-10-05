@@ -1,0 +1,16 @@
+site_name: rattenjunge
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: black
+
+extra_css:
+  - css/extra.css
+
+markdown_extensions:
+  - footnotes
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
