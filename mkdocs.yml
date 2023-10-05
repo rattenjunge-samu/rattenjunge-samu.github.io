@@ -1,10 +1,22 @@
 site_name: rattenjunge
 
 theme:
+  logo: img/dalle3_ratboy_cool_dark.png
   name: material
   palette:
-    scheme: slate
-    primary: black
+    - scheme: slate
+      primary: black
+      accent: teal
+      toggle:
+        name: Switch to dark
+        icon: material/lightbulb
+
+
+    - scheme: default
+      primary: black
+      toggle:
+        name: Switch to light
+        icon: material/lightbulb-outline
 
 extra_css:
   - css/extra.css
