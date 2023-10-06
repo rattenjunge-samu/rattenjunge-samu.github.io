@@ -2,20 +2,19 @@ site_name: rattenjunge
 
 theme:
   logo: img/dalle3_ratboy_cool_dark.png
+  favicon: img/dalle3_ratboy_cool_dark.png
   name: material
   palette:
     - scheme: slate
       primary: black
-      accent: teal
       toggle:
-        name: Switch to dark
+        name: Switch to light
         icon: material/lightbulb
-
 
     - scheme: default
       primary: black
       toggle:
-        name: Switch to light
+        name: Switch to dark
         icon: material/lightbulb-outline
 
 extra_css:
@@ -26,3 +25,28 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - attr_list
+  - md_in_html
+
+plugins:
+  - glightbox
+
+extra:
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.<br>
+      <b>There will be absolutely no disadvantage in rejecting all cookies so feel free to do that.</b>
+    actions:
+      - accept
+      - reject
+      - manage
+    cookies:
+      analytics: Google Analytics
+      github: Github
+
+copyright: >
+  <a href="#__consent">Change cookie settings</a>
