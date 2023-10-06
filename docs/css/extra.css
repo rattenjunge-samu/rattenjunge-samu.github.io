@@ -1,5 +1,26 @@
+:root {
+    /* to change some variables */
+}
+
 h1 {
+    color: darkorange;
     margin-bottom: 0px;
+}
+
+.md-typeset h1 {
+    color: darkorange;
+}
+
+h2 {
+    color: darkorange;
+}
+
+h3 {
+    color: darkorange;
+}
+
+h4 {
+    color: darkorange;
 }
 
 .md-typeset h1 {
