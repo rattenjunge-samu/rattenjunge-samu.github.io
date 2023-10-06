@@ -4,6 +4,8 @@ theme:
   logo: img/dalle3_ratboy_cool_dark.png
   favicon: img/dalle3_ratboy_cool_dark.png
   name: material
+  features:
+    - search.suggest
   palette:
     - scheme: slate
       primary: black
@@ -30,6 +32,7 @@ markdown_extensions:
 
 plugins:
   - glightbox
+  - search
 
 extra:
   consent:
