@@ -2,6 +2,18 @@
 
 I'll try to track some of the changes done to the site in here.
 
+## 01/07/2024 more styling
+
+Time to wipe off the dust here ...
+
+I noticed the colors of the locally served page differ from the github build.
+
+I can not pinpoint the cause of this problem. However this was solved when I updated the mkdocs material from 9.1.4 to 9.5.27.
+
+However now the contrast of code-blocks and similar elements against the background is too low, so I look into fixing this.
+
+Lowering the brightness of the .md-content background color seems sufficient for now.
+
 ## 06/10/2023 mainly styling
 
 I'm trying to customize some features I don't like in the default style.
